@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analysis</title>
+</head>
+
+<body>
+    <br><br>
+    <input type="number" id="num_inpt">
+    <br><br>
+    <button onclick="Response()">Charactertics of Number</button>
+    <p id="resp"></p>
+
+    <script>
+        let Response = () => {
+            let num_inpt = document.getElementById("num_inpt").value;
+            let resp = document.getElementById("resp");
+            // num_inpt = Number(num_inpt)
+
+            result = num_inpt > 0 ? "Postive" : "Negative";
+
+            partiy = num_inpt % 2 == 0 ? "Even" : "Odd";
+            let range;
+            if (num_inpt >= 1 && num_inpt <= 10) {
+                range = "Between 1 and 10";
+            } else if (num_inpt >= 11 && num_inpt <= 100) {
+                range = "Between 11 and 100";
+            } else {
+                range = "Outside defined ranges";
+            }
+            resp.innerText = `It is a ${result} Number and also ${partiy} in the range ${range}`
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <br><br>
+    <input type="number" max="100" id="marks" placeholder="Enter the marks"> 
+    <br><br>
+    <button onclick="std_grade()">Result</button>
+
+    <script>
+        
+
+        function std_grade() {
+            let marks = document.getElementById("marks").value;
+            if (marks >= 75) {
+                console.log(`Student with ${marks} got Grade A`);
+            }
+            else if (75 > marks && marks >= 60) {
+                console.log(`Student with ${marks} got Grade B`);
+            }
+            else if (60 > marks && marks >= 40) {
+                console.log(`Student with ${marks} got Grade c`);
+            }
+            else {
+                console.log("Fail")
+            }
+
+        }
+    </script>
+</body>
+
+</html>

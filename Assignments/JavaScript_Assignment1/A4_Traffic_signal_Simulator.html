@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal</title>
+</head>
+
+<body>
+    <input type="text" id="sig_inpt" placeholder="Enter the Signal Color">
+    <p id="text"></p>
+    <button onclick="Signal_mean()">Know Mean</button>
+    <script>
+
+        let Signal_mean = () => {
+            const arr = ["red", "yellow", "green"]
+            let sig_inpt = document.getElementById("sig_inpt").value;
+            let text = document.getElementById("text");
+
+            switch (sig_inpt.toLowerCase()){
+                case "red":
+                    text.innerText = "STOP"
+                    text.style.color = "red"
+                    break;
+                case "yellow":
+                    text.innerText = "Get Ready"
+                    text.style.color = "yellow"
+                    break;
+                case "green":
+                    text.innerText = "Go"
+                    text.style.color = "green"
+                    break;
+                default:
+                    console.log("Invaild Color")
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>
