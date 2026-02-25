@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Form Validation</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Form Validation</legend>
+            <table>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" id="Name" onchange="validateName()"></td>
+                    <td><p id="namemsg"></p></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" id="email" onchange="validateEmail()"></td>
+                    <td><p id="emailmsg"></p></td>
+                </tr>
+                <tr>
+                    <td><label>Age</label></td>
+                    <td><input type="number" id="age" onchange="validateAge()"></td>
+                    <td><p id="agemsg"></p></td>
+                </tr>
+                <td colspan="2"><input type="submit" ></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <script>
+        function validateName(){
+            let Name = document.getElementById("Name").value;
+            let msg = document.getElementById("namemsg");
+
+            if (Name == ""){
+                msg.innerText = "Name Cannot be Empty..!"
+            }
+
+        }
+        function validateEmail(){
+            let email = document.getElementById("email").value;
+            let msg = document.getElementById("emailmsg");
+
+            if (email.indexOf("@") === -1){
+                msg.innerText = "Email Must Container @"
+            }
+        }
+
+        function validateAge(){
+            let age = document.getElementById("age").value;
+            let msg = document.getElementById("agemsg");
+
+            if (age <= 18){
+                msg.innerText = "Age Must be Greater than 18"
+            }
+
+        }
+    </script>
+</body>
+
+</html>
