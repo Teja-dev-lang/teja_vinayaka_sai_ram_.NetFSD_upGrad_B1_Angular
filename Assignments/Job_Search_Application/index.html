@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automated Job Search Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-icon">&#128188;</span>
+                <span class="logo-text">JobFinder</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#jobs-section" class="nav-link active" data-section="search">Search Jobs</a>
+                <a href="#saved-section" class="nav-link" data-section="saved">
+                    Saved Jobs <span class="badge" id="saved-badge">0</span>
+                </a>
+                <a href="#applied-section" class="nav-link" data-section="applied">
+                    Applications <span class="badge" id="applied-badge">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Search Section -->
+    <section class="hero" id="jobs-section">
+        <h1 class="hero-title">Find Your <span class="highlight">Dream Job</span> Instantly</h1>
+        <p class="hero-sub">Automated real-time job search — results update as you type.</p>
+
+        <div class="search-bar">
+            <div class="search-input-wrap">
+                <span class="search-icon">&#128269;</span>
+                <input
+                    type="text"
+                    id="keyword-input"
+                    class="search-input"
+                    placeholder="Job title, skills or company..."
+                    autocomplete="off"
+                />
+                <span class="clear-btn" id="clear-keyword" title="Clear" style="display:none;">&#10005;</span>
+            </div>
+            <div class="search-input-wrap">
+                <span class="search-icon">&#128205;</span>
+                <input
+                    type="text"
+                    id="location-input"
+                    class="search-input"
+                    placeholder="City, state or remote..."
+                    autocomplete="off"
+                />
+                <span class="clear-btn" id="clear-location" title="Clear" style="display:none;">&#10005;</span>
+            </div>
+            <button class="search-btn" id="search-btn">Search</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Filter Sidebar -->
+        <aside class="sidebar">
+            <div class="filter-header">
+                <h3>Filters</h3>
+                <button class="reset-btn" id="reset-filters">Reset</button>
+            </div>
+
+            <div class="filter-group">
+                <label class="filter-label">Job Type</label>
+                <div class="checkbox-group" id="job-type-filter">
+                    <label><input type="checkbox" value="Full-Time" checked /> Full-Time</label>
+                    <label><input type="checkbox" value="Part-Time" checked /> Part-Time</label>
+                    <label><input type="checkbox" value="Contract" checked /> Contract</label>
+                    <label><input type="checkbox" value="Internship" checked /> Internship</label>
+                    <label><input type="checkbox" value="Remote" checked /> Remote</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label class="filter-label">Experience Level</label>
+                <div class="checkbox-group" id="experience-filter">
+                    <label><input type="checkbox" value="Entry Level" checked /> Entry Level</label>
+                    <label><input type="checkbox" value="Mid Level" checked /> Mid Level</label>
+                    <label><input type="checkbox" value="Senior Level" checked /> Senior Level</label>
+                    <label><input type="checkbox" value="Lead / Manager" checked /> Lead / Manager</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label class="filter-label">Salary Range (₹ LPA)</label>
+                <div class="range-row">
+                    <span id="salary-min-label">0</span>
+                    <input type="range" id="salary-min" min="0" max="50" value="0" step="1" />
+                </div>
+                <div class="range-row">
+                    <span id="salary-max-label">50+</span>
+                    <input type="range" id="salary-max" min="0" max="50" value="50" step="1" />
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label class="filter-label">Date Posted</label>
+                <select id="date-filter" class="filter-select">
+                    <option value="any">Any time</option>
+                    <option value="1">Last 24 hours</option>
+                    <option value="7">Last 7 days</option>
+                    <option value="30">Last 30 days</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label class="filter-label">Sort By</label>
+                <select id="sort-filter" class="filter-select">
+                    <option value="relevance">Relevance</option>
+                    <option value="date-desc">Newest First</option>
+                    <option value="date-asc">Oldest First</option>
+                    <option value="salary-desc">Highest Salary</option>
+                    <option value="salary-asc">Lowest Salary</option>
+                </select>
+            </div>
+        </aside>
+
+        <!-- Jobs Panel -->
+        <section class="jobs-panel">
+            <div class="results-header">
+                <p class="results-count" id="results-count">Loading jobs…</p>
+                <div class="auto-search-toggle">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="auto-search-toggle" checked />
+                        <span class="toggle-slider"></span>
+                        Auto-Search
+                    </label>
+                </div>
+            </div>
+
+            <!-- Auto-search status indicator -->
+            <div class="autosearch-status" id="autosearch-status" style="display:none;">
+                <span class="spinner"></span> Searching…
+            </div>
+
+            <!-- Jobs Grid -->
+            <div class="jobs-grid" id="jobs-grid"></div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination"></div>
+        </section>
+    </main>
+
+    <!-- Saved Jobs Section -->
+    <section class="extra-section" id="saved-section" style="display:none;">
+        <h2 class="section-title">&#10084; Saved Jobs</h2>
+        <div class="jobs-grid" id="saved-jobs-grid">
+            <p class="empty-state">No saved jobs yet. Click the heart icon on any job card to save it.</p>
+        </div>
+    </section>
+
+    <!-- Applied Jobs Section -->
+    <section class="extra-section" id="applied-section" style="display:none;">
+        <h2 class="section-title">&#128203; My Applications</h2>
+        <div class="jobs-grid" id="applied-jobs-grid">
+            <p class="empty-state">No applications submitted yet.</p>
+        </div>
+    </section>
+
+    <!-- Job Detail Modal -->
+    <div class="modal-overlay" id="modal-overlay" style="display:none;">
+        <div class="modal" id="job-modal">
+            <button class="modal-close" id="modal-close">&#10005;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
