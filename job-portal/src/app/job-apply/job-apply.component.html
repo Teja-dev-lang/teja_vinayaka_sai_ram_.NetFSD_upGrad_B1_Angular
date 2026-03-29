@@ -1,0 +1,91 @@
+<div class="page-wrapper">
+
+  <!-- Success State -->
+  <div class="success-card" *ngIf="submitted">
+    <div class="success-icon">✅</div>
+    <h2>Application Submitted!</h2>
+    <p>Thank you, <strong>{{ name }}</strong>! Your application for <strong>{{ job?.title }}</strong> at <strong>{{ job?.company }}</strong> has been received.</p>
+    <p class="success-sub">We will get back to you at <strong>{{ email }}</strong> within 5–7 business days.</p>
+    <div class="success-actions">
+      <a routerLink="/jobs" class="btn-primary">Browse More Jobs</a>
+    </div>
+  </div>
+
+  <!-- Already Applied State -->
+  <div class="already-applied-card" *ngIf="alreadyApplied && !submitted">
+    <div class="info-icon">ℹ️</div>
+    <h2>Already Applied</h2>
+    <p>You have already applied to <strong>{{ job?.title }}</strong> with email <strong>{{ email }}</strong>.</p>
+    <a routerLink="/jobs" class="btn-primary">Browse More Jobs</a>
+  </div>
+
+  <!-- Application Form -->
+  <ng-container *ngIf="!submitted && !alreadyApplied">
+    <a [routerLink]="['/jobs', job?.id]" class="back-link">← Back to Job Details</a>
+
+    <div class="form-card" *ngIf="job; else notFound">
+      <div class="form-header">
+        <h1>Apply for: <span class="highlight">{{ job.title }}</span></h1>
+        <p class="company-info">🏢 {{ job.company }} &nbsp;|&nbsp; 📍 {{ job.location }}</p>
+      </div>
+
+      <form (ngSubmit)="submitApplication()" #applyForm="ngForm" novalidate>
+
+        <div class="form-group">
+          <label for="name">Full Name <span class="req">*</span></label>
+          <input id="name" type="text" [(ngModel)]="name" name="name"
+            placeholder="e.g. Teja Vinayaka Sai Ram"
+            class="input-field" [class.input-error]="errors['name']" />
+          <span class="error-msg" *ngIf="errors['name']">{{ errors['name'] }}</span>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input id="email" type="email" [(ngModel)]="email" name="email"
+              placeholder="you@example.com"
+              class="input-field" [class.input-error]="errors['email']" />
+            <span class="error-msg" *ngIf="errors['email']">{{ errors['email'] }}</span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number <span class="req">*</span></label>
+            <input id="phone" type="tel" [(ngModel)]="phone" name="phone"
+              placeholder="+91 9876543210"
+              class="input-field" [class.input-error]="errors['phone']" />
+            <span class="error-msg" *ngIf="errors['phone']">{{ errors['phone'] }}</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Resume Link or Summary <span class="req">*</span></label>
+          <input id="resume" type="text" [(ngModel)]="resume" name="resume"
+            placeholder="LinkedIn URL, Google Drive link, or brief summary..."
+            class="input-field" [class.input-error]="errors['resume']" />
+          <span class="error-msg" *ngIf="errors['resume']">{{ errors['resume'] }}</span>
+        </div>
+
+        <div class="form-group">
+          <label for="coverLetter">Cover Letter <span class="optional">(optional)</span></label>
+          <textarea id="coverLetter" [(ngModel)]="coverLetter" name="coverLetter"
+            rows="5"
+            placeholder="Tell us why you're a great fit for this role..."
+            class="input-field textarea-field"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <a [routerLink]="['/jobs', job.id]" class="btn-cancel">Cancel</a>
+          <button type="submit" class="btn-submit">Submit Application 🚀</button>
+        </div>
+
+      </form>
+    </div>
+  </ng-container>
+
+  <ng-template #notFound>
+    <div class="not-found">
+      <p>Job not found.</p>
+      <a routerLink="/jobs" class="btn-primary">← Back to Jobs</a>
+    </div>
+  </ng-template>
+
+</div>
