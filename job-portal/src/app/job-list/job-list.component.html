@@ -1,0 +1,70 @@
+<div class="page-wrapper">
+  <!-- Hero Banner -->
+  <div class="hero">
+    <h1>🔍 Find Your Dream Job</h1>
+    <p>Search thousands of job listings and apply in one click</p>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="search-panel">
+    <div class="search-row">
+      <input
+        type="text"
+        [(ngModel)]="keyword"
+        placeholder="Job title, company, or keyword..."
+        class="input-field"
+        (keyup.enter)="search()"
+      />
+      <input
+        type="text"
+        [(ngModel)]="location"
+        placeholder="Location (city, state, remote...)"
+        class="input-field"
+        (keyup.enter)="search()"
+      />
+      <select [(ngModel)]="selectedCategory" class="input-field select-field">
+        <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+      </select>
+      <button class="btn-search" (click)="search()">Search Jobs</button>
+      <button class="btn-clear" (click)="clearFilters()">Clear</button>
+    </div>
+  </div>
+
+  <!-- Results Count -->
+  <div class="results-info">
+    <span>{{ filteredJobs.length }} job(s) found</span>
+  </div>
+
+  <!-- Job Cards -->
+  <div class="job-grid" *ngIf="filteredJobs.length > 0; else noJobs">
+    <div class="job-card" *ngFor="let job of filteredJobs">
+      <div class="card-header">
+        <div class="job-title-wrap">
+          <h2 class="job-title">{{ job.title }}</h2>
+          <span class="badge" [ngClass]="job.type === 'Remote' ? 'badge-remote' : 'badge-type'">{{ job.type }}</span>
+        </div>
+        <p class="company">🏢 {{ job.company }}</p>
+      </div>
+      <div class="card-meta">
+        <span>📍 {{ job.location }}</span>
+        <span>💼 {{ job.category }}</span>
+        <span>💰 {{ job.salary }}</span>
+      </div>
+      <p class="description">{{ job.description | slice:0:120 }}...</p>
+      <div class="card-footer">
+        <span class="posted-date">Posted: {{ job.postedDate }}</span>
+        <div class="card-actions">
+          <a [routerLink]="['/jobs', job.id]" class="btn-view">View Details</a>
+          <a [routerLink]="['/jobs', job.id, 'apply']" class="btn-apply">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noJobs>
+    <div class="no-results">
+      <p>😕 No jobs found matching your criteria. Try different keywords or clear the filters.</p>
+      <button class="btn-clear" (click)="clearFilters()">Show All Jobs</button>
+    </div>
+  </ng-template>
+</div>
