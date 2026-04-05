@@ -1,0 +1,14 @@
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.csproj.AssemblyReference.cache
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.AssemblyInfoInputs.cache
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.AssemblyInfo.cs
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.csproj.CoreCompileInputs.cache
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.deps.json
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.runtimeconfig.json
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.dll
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.pdb
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.dll
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\refint\MovieApp.Data.dll
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.pdb
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.genruntimeconfig.cache
+C:\CTS (.Net training)\ThreeLayerArchitecture\MovieManagementSystem\MovieApp.Data\obj\Debug\net10.0\ref\MovieApp.Data.dll

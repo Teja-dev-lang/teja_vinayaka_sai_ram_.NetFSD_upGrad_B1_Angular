@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MovieApp.Business/MovieApp.Business.csproj" />
+  <Project Path="MovieApp.Data/MovieApp.Data.csproj" />
+  <Project Path="MovieApp.Web/MovieApp.Web.csproj" />
+</Solution>
