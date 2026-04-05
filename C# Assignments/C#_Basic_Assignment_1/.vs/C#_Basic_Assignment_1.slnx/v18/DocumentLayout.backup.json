@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_basic_assignment_1\\c#_basic_assignment_1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|solutionrelative:c#_basic_assignment_1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_basic_assignment_1\\question8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|solutionrelative:question8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_basic_assignment_1\\question7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|solutionrelative:question7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_basic_assignment_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A398E956-070C-436E-B6E0-75031EE7BA72}|C#_Basic_Assignment_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "question8.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\question8.cs",
+              "RelativeDocumentMoniker": "question8.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\question8.cs",
+              "RelativeToolTip": "question8.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:35:30.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "question7.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\question7.cs",
+              "RelativeDocumentMoniker": "question7.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\question7.cs",
+              "RelativeToolTip": "question7.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:35:14.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "C#_Basic_Assignment_1",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\C#_Basic_Assignment_1.csproj",
+              "RelativeDocumentMoniker": "C#_Basic_Assignment_1.csproj",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\C#_Basic_Assignment_1.csproj",
+              "RelativeToolTip": "C#_Basic_Assignment_1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T11:02:46.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Basic_Assignment_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T10:35:58.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment</title>
+</head>
+
+<body>
+
+<h2>Online Hospital Appointment</h2>
+
+<form>
+<table border="1" cellpadding="8">
+
+    <tr>
+        <td>Department</td>
+        <td>
+            <input list="dept" required>
+            <datalist id="dept">
+                <option value="Cardiology">
+                <option value="Neurology">
+                <option value="Orthopedics">
+                <option value="Dermatology">
+            </datalist>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Doctor Name</td>
+        <td>
+            <input list="doctor" required>
+            <datalist id="doctor">
+                <option value="Dr. Kumar">
+                <option value="Dr. Rao">
+                <option value="Dr. Sharma">
+            </datalist>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Age</td>
+        <td>
+            <input type="number" min="1" max="120" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Phone Number</td>
+        <td>
+            <input type="tel" pattern="[0-9]{10}" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Email</td>
+        <td>
+            <input type="email" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Appointment Date</td>
+        <td>
+            <input type="date" min="2026-01-01" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Appointment Time</td>
+        <td>
+            <input type="time">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Emergency Case</td>
+        <td>
+            <input type="checkbox">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Medical Reports</td>
+        <td>
+            <input type="file" multiple>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Book Appointment">
+        </td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>

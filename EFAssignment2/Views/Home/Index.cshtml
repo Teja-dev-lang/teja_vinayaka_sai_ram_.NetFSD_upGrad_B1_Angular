@@ -1,0 +1,24 @@
+﻿@model IEnumerable<EFAssignment2.ViewModel.StudentCourseViewModel>
+
+@{
+    ViewData["Title"] = "Enrollment Records";
+}
+
+<h1>Enrollment Records</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Course ID</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.StudentName</td>
+            <td>@item.CourseID</td>
+        </tr>
+}
+    </tbody>
+</table>

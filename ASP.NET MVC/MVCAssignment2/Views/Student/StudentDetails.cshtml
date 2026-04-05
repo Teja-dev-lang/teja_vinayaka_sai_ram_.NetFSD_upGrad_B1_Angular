@@ -1,0 +1,26 @@
+﻿@model List<Student>
+@{
+    ViewData["Title"] = "StudentDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container">
+    <table class="table">
+    <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+    </tr>
+    <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Age</td>
+                    <td>@item.Email</td>
+                </tr>
+            }
+    </tbody>
+</table>
+</div>
+

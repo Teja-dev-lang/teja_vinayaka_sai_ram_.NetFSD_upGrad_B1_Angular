@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\bin\Debug\net10.0\C#_Exception_Handling.exe
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\bin\Debug\net10.0\C#_Exception_Handling.deps.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\bin\Debug\net10.0\C#_Exception_Handling.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\bin\Debug\net10.0\C#_Exception_Handling.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\bin\Debug\net10.0\C#_Exception_Handling.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\refint\C#_Exception_Handling.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\C#_Exception_Handling.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Exception_Handling\obj\Debug\net10.0\ref\C#_Exception_Handling.dll

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+</head>
+
+<body>
+    <h1>Book Title</h1>
+    <ul id=booklist>
+    </ul>
+    <p id="total"></p>
+    <script>
+        let books = [
+
+            { id: 1, title: "JavaScript Basics", price: 450, stock: 10 },
+
+            { id: 2, title: "React Guide", price: 650, stock: 5 },
+
+            { id: 3, title: "Node.js Mastery", price: 550, stock: 8 },
+
+            { id: 4, title: "CSS Complete", price: 300, stock: 12 }
+
+        ];
+
+        let book_titles = books.map(book => book.title)
+        book_titles.forEach(book => {
+            let booklist = document.getElementById("booklist");
+            let createli = document.createElement("li");
+            booklist.appendChild(createli);
+            createli.innerText = book
+        });
+
+        let total = document.getElementById("total");
+        let total_sum = books.reduce((acc, book) => {
+            return acc + book.price
+        }, 0);
+        total.innerText = `Total inventory Value is ${total_sum}`
+
+        let bookfilter = books.filter(book => {
+            return book.price > 500
+        }).map(books => { return books.title })
+        total.innerHTML += `<br> Books more than 500 are : <b>${bookfilter}</b>`
+
+        let inc_price = books.map(books => { return (books.price = books.price * 1.05) })
+        console.log(inc_price)
+
+        let sort_books = books.sort((a, b) => { return a.price - b.price })
+        console.log(sort_books)
+
+        const bookIdToRemove = 2;
+
+        const updatedBooks = books.filter(book => book.id !== bookIdToRemove);
+        console.log(updatedBooks);
+
+        const hasOutOfStock = books.some(book => book.stock === 0);
+        console.log(hasOutOfStock);
+    </script>
+
+</body>
+
+</html>

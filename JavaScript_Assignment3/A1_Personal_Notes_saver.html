@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Notes</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personal Notes</h1>
+    <br><br>
+    <label>Notes :</label><br><br>
+    <textarea name="notes" id="notes" placeholder="Write the Notes"></textarea><br><br>
+
+    <button onclick="save()">Save</button>
+    <button onclick="reset()">Reset</button>
+
+    <script>
+        window.onload = function () {
+            const savedNote = localStorage.getItem("p_notes");
+            if (savedNote !== null) {
+                document.getElementById("notes").value = savedNote;
+            }
+        };
+        function save() {
+            note = document.getElementById("notes");
+            let notes = document.getElementById("notes").value;
+            localStorage.setItem("p_notes", notes);
+            note.value = ""
+        }
+        function reset() {
+            note = document.getElementById("notes");
+            localStorage.removeItem("p_notes")
+
+        }
+    </script>
+</body>
+
+</html>

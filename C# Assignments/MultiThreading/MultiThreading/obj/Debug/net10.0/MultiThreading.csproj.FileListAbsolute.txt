@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\bin\Debug\net10.0\MultiThreading.exe
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\bin\Debug\net10.0\MultiThreading.deps.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\bin\Debug\net10.0\MultiThreading.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\bin\Debug\net10.0\MultiThreading.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\bin\Debug\net10.0\MultiThreading.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\refint\MultiThreading.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\MultiThreading.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\MultiThreading\MultiThreading\obj\Debug\net10.0\ref\MultiThreading.dll

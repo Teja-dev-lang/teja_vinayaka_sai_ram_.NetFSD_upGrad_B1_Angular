@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info Display</title>
+</head>
+<body>
+    <p id="details"></p>
+    <script>
+        let name = "Teja";
+        let age = 23;
+        let city = "Hyderabad";
+        let userobj = {
+            'name': name,
+            "age" : age,
+            "city" : city
+        }
+        function displayUserinfo(userobj){
+            let details = document.getElementById("details");
+            for(let attr in userobj){
+                details.innerText += attr+ ":"+ userobj[attr] + "\n"
+        }
+    } 
+    displayUserinfo(userobj);
+    </script>
+</body>
+</html>

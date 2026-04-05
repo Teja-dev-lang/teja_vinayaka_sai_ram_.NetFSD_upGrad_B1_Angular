@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Course Registration</title>
+</head>
+
+<body>
+
+<header>
+
+    <h1>E-Learning Certification Program</h1>
+</header>
+
+<main>
+
+<section>
+    <h2>Course Registration</h2>
+
+    <form>
+        <table cellpadding="8">
+            <tr>
+                <td>Course Name</td>
+                <td>
+                    <input list="courses" required>
+                    <datalist id="courses">
+                        <option value="Python Programming">
+                        <option value="Web Development">
+                        <option value="Data Science">
+                        <option value="Cloud Computing">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Batch Month</td>
+                <td>
+                    <input type="month" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Session Timing</td>
+                <td>
+                    <input type="time" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Skill Level</td>
+                <td>
+                    Beginner
+                    <input type="range" min="1" max="5" required>
+                    Expert
+                </td>
+            </tr>
+
+            <tr>
+                <td>Introduction Video</td>
+                <td>
+                    <video width="250" controls>
+                        <source src="./Media/Gen_AI_Video_Generation.mp4" type="video/mp4">
+                        <track src="" kind="subtitles" srclang="en" label="English">
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Enroll">
+                </td>
+            </tr>
+        </table>
+    </form>
+</section>
+</main>
+<footer>
+    <p>&copy; 2026 E-Learning Platform</p>
+</footer>
+</body>
+</html>
