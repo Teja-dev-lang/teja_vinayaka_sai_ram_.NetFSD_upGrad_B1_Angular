@@ -1,0 +1,68 @@
+<div class="page-wrapper" *ngIf="job; else notFound">
+  <a routerLink="/jobs" class="back-link">← Back to Jobs</a>
+
+  <div class="detail-card">
+    <div class="detail-header">
+      <div>
+        <h1 class="job-title">{{ job.title }}</h1>
+        <p class="company">🏢 {{ job.company }}</p>
+      </div>
+      <span class="badge" [ngClass]="job.type === 'Remote' ? 'badge-remote' : 'badge-type'">{{ job.type }}</span>
+    </div>
+
+    <div class="meta-grid">
+      <div class="meta-item">
+        <span class="meta-icon">📍</span>
+        <div>
+          <small>Location</small>
+          <p>{{ job.location }}</p>
+        </div>
+      </div>
+      <div class="meta-item">
+        <span class="meta-icon">💼</span>
+        <div>
+          <small>Category</small>
+          <p>{{ job.category }}</p>
+        </div>
+      </div>
+      <div class="meta-item">
+        <span class="meta-icon">💰</span>
+        <div>
+          <small>Salary</small>
+          <p>{{ job.salary }}</p>
+        </div>
+      </div>
+      <div class="meta-item">
+        <span class="meta-icon">📅</span>
+        <div>
+          <small>Posted On</small>
+          <p>{{ job.postedDate }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About the Role</h2>
+      <p>{{ job.description }}</p>
+    </div>
+
+    <div class="section">
+      <h2>Requirements</h2>
+      <ul class="req-list">
+        <li *ngFor="let req of job.requirements">✔ {{ req }}</li>
+      </ul>
+    </div>
+
+    <div class="action-bar">
+      <a routerLink="/jobs" class="btn-back">Back to Search</a>
+      <a [routerLink]="['/jobs', job.id, 'apply']" class="btn-apply">Apply Now 🚀</a>
+    </div>
+  </div>
+</div>
+
+<ng-template #notFound>
+  <div class="not-found">
+    <p>Job not found.</p>
+    <a routerLink="/jobs" class="btn-back">← Back to Jobs</a>
+  </div>
+</ng-template>

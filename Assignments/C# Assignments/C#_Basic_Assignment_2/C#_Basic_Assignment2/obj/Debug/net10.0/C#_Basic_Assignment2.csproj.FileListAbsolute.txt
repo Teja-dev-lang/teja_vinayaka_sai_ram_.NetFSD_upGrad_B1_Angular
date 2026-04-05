@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\bin\Debug\net10.0\C#_Basic_Assignment2.exe
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\bin\Debug\net10.0\C#_Basic_Assignment2.deps.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\bin\Debug\net10.0\C#_Basic_Assignment2.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\bin\Debug\net10.0\C#_Basic_Assignment2.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\bin\Debug\net10.0\C#_Basic_Assignment2.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\refint\C#_Basic_Assignment2.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\C#_Basic_Assignment2.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Basic_Assignment_2\C#_Basic_Assignment2\obj\Debug\net10.0\ref\C#_Basic_Assignment2.dll

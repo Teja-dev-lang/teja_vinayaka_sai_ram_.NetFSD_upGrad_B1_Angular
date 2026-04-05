@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\bin\Debug\net10.0\C#_Interfaces_Assignment.exe
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\bin\Debug\net10.0\C#_Interfaces_Assignment.deps.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\bin\Debug\net10.0\C#_Interfaces_Assignment.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\bin\Debug\net10.0\C#_Interfaces_Assignment.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\bin\Debug\net10.0\C#_Interfaces_Assignment.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\refint\C#_Interfaces_Assignment.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\C#_Interfaces_Assignment.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_Interfaces_Assignment\obj\Debug\net10.0\ref\C#_Interfaces_Assignment.dll
