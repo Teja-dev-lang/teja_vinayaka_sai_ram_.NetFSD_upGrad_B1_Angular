@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Blog Platform</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Media Blog</h1>
+        <form>
+            <input type="search" placeholder="Search posts">
+        </form>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>Learning HTML5 Multimedia</h2>
+                <p>By John Doe</p>
+                <time datetime="2026-02-19">February 19, 2026</time>
+            </header>
+            <section>
+                <img src="blog-image.jpg" alt="HTML5 multimedia" width="300">
+            </section>
+            <section>
+                <audio controls loop>
+                    <source src="audio.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+            <section>
+                <video width="300" controls poster="video-poster.jpg">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </section>
+            <p>HTML5 supports audio and video without plugins.</p>
+        </article>
+        <section>
+            <h3>Subscribe for Updates</h3>
+            <form>
+                <input type="email" placeholder="Enter email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Media Blog</p>
+    </footer>
+</body>
+
+</html>

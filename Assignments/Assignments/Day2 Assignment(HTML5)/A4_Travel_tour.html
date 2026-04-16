@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+</head>
+<body>
+<h2>Travel & Tourism Booking</h2>
+
+<form>
+<table cellpadding="8">
+
+    <tr>
+        <td>Source City</td>
+        <td>
+            <input list="cities" required>
+            <datalist id="cities">
+                <option value="Hyderabad">
+                <option value="Bangalore">
+                <option value="Chennai">
+                <option value="Delhi">
+            </datalist>
+        </td>
+    </tr>
+    <tr>
+        <td>Destination City</td>
+        <td>
+            <input list="cities" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Travel Date</td>
+        <td>
+            <input type="date" min="2026-01-01" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Return Date</td>
+        <td>
+            <input type="date" min="2026-01-01" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Travel Class</td>
+        <td>
+            <select required>
+                <option value="">Select</option>
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First Class</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Preferred Airline</td>
+        <td>
+            <input list="airlines" required>
+            <datalist id="airlines">
+                <option value="IndiGo">
+                <option value="Air India">
+                <option value="Vistara">
+                <option value="Emirates">
+            </datalist>
+        </td>
+    </tr>
+    <tr>
+        <td>Passengers</td>
+        <td>
+            <input type="number" min="1" max="10" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Meal Preference</td>
+        <td>
+            <input type="color">
+        </td>
+    </tr>
+    <tr>
+        <td>Special Assistance</td>
+        <td>
+            <textarea placeholder="Mention wheelchair"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Promotional Video</td>
+        <td>
+            <video width="250" controls>
+                <source src="./Media/Gen_AI_Video_Generation.mp4" type="video/mp4">
+            </video>
+        </td>
+    </tr>
+    <tr>
+        <td>Travel Theme Audio</td>
+        <td>
+            <audio controls>
+                <source src="" type="audio/mpeg">
+            </audio>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Book Travel">
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

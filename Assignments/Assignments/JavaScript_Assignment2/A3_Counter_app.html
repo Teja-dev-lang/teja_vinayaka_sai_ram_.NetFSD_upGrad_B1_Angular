@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<body>
+    <p id="counter">0</p>
+    <button onclick="incriment()">Incriment</button>
+    <button onclick="reset()">Reset</button>
+
+    <script>
+        let counter = document.getElementById("counter");
+        function incriment(){
+            counter.innerText = parseInt(counter.innerText) + 1
+        }
+        function reset(){
+            counter.innerText = 0
+        }
+    </script>
+</body>
+</html>

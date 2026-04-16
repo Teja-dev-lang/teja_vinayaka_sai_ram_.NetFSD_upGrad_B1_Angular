@@ -1,0 +1,131 @@
+	create database store
+	use store
+
+	CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50)
+    );
+
+CREATE TABLE orders (
+order_id int primary key,
+order_date DATE not null,
+order_status INT not null,
+customer_id INT,
+FOREIGN KEY (customer_id) references customers(customer_id)
+);
+DROP TABLE orders
+
+INSERT INTO customers VALUES
+(1,'John','Smith'),
+(2,'Alice','Brown'),
+(3,'David','Miller');
+
+INSERT INTO orders VALUES
+(101,'2025-01-10',1,1),
+(102,'2025-01-12',4,2),
+(103,'2025-01-15',2,1);
+
+
+-------------------------
+CREATE TABLE brands (
+brand_id INT PRIMARY KEY,
+brand_name VARCHAR(50)
+);
+
+
+CREATE TABLE categories (
+category_id INT PRIMARY KEY,
+category_name VARCHAR(50)
+);
+
+
+INSERT INTO brands VALUES
+(1,'Nike'),
+(2,'Adidas');
+
+INSERT INTO categories VALUES
+(1,'Shoes'),
+(2,'Clothing');
+
+CREATE TABLE products (
+product_id INT PRIMARY KEY,
+product_name VARCHAR(100),
+brand_id INT,
+category_id INT,
+FOREIGN KEY (brand_id) REFERENCES brands(brand_id),
+FOREIGN KEY (category_id) REFERENCES categories(category_id)
+);
+
+INSERT INTO brands (brand_id, brand_name, model_year)
+VALUES 
+(1, 'Nike', '2024-01-01'),
+(2, 'Adidas', '2023-01-01'),
+(3, 'Puma', '2022-01-01');
+
+INSERT INTO products (product_id, product_name, brand_id, category_id)
+VALUES
+(101, 'Running Shoes', 1, 1),
+(102, 'Football Shoes', 1, 1),
+(103, 'Sports T-Shirt', 2, 2),
+(104, 'Training Jacket', 2, 2),
+(105, 'Gym Shoes', 1, 1);
+
+UPDATE brands
+SET model_year = '2024-01-01'
+WHERE model_year IS NULL;
+
+alter table products add list_price int default 500
+
+select * from products
+select * from categories
+
+--store
+
+CREATE TABLE STORE (
+store_id int primary key,
+store_name varchar(30) not null,
+store_loc varchar(20) not null,
+)
+
+CREATE TABLE orders (
+order_id int primary key,
+order_date DATE not null,
+order_status INT not null,
+customer_id INT,
+FOREIGN KEY (customer_id) references customers(customer_id),
+store_id int,
+FOREIGN KEY (store_id) references store(store_id)
+);
+
+alter table orders add store_id INT NOT NULL default 11223;
+
+select * from STORE;
+select * from orders
+select * from order_items;
+
+CREATE TABLE order_items (
+    order_item_id INT PRIMARY KEY,
+    order_id INT,
+    quantity INT,
+    list_price DECIMAL(10,2),
+    discount DECIMAL(4,2),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
+
+ALTER TABLE order_items
+ADD product_id INT;
+
+ALTER TABLE order_items
+ADD CONSTRAINT FK_orderitems_products
+FOREIGN KEY (product_id)
+REFERENCES products(product_id);
+
+CREATE TABLE stocks (
+    store_id INT,
+    product_id INT,
+    quantity INT,
+    PRIMARY KEY (store_id, product_id),
+    FOREIGN KEY (store_id) REFERENCES store(store_id),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);

@@ -3664,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CTS (.Net training)\\ThreeLayerArchitecture\\MovieManagementSystem\\MovieApp.Data\\MovieApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ThreeLayerArchitecture\\MovieManagementSystem\\MovieApp.Data\\MovieApp.Data.csproj",
       "projectName": "MovieApp.Data",
-      "projectPath": "C:\\CTS (.Net training)\\ThreeLayerArchitecture\\MovieManagementSystem\\MovieApp.Data\\MovieApp.Data.csproj",
+      "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ThreeLayerArchitecture\\MovieManagementSystem\\MovieApp.Data\\MovieApp.Data.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\CTS (.Net training)\\ThreeLayerArchitecture\\MovieManagementSystem\\MovieApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ThreeLayerArchitecture\\MovieManagementSystem\\MovieApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

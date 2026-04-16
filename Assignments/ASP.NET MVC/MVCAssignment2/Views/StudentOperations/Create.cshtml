@@ -1,0 +1,36 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Index" method="post">
+    <table class="table">
+        <tr>
+            <label asp-for="Id"></label>
+            <input asp-for="Id" />
+            <span asp-validation-for="Id"></span>
+        </tr>
+        <tr>
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+
+        </tr>
+        <tr>
+            <label asp-for="Age"></label>
+            <input asp-for="Age" />
+            <span asp-validation-for="Age"></span>
+
+        </tr>
+        <tr>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+
+        </tr>
+        <tr colspan ="2">
+            <input type="submit" value="Create"/>
+        </tr>
+    </table>
+</form>

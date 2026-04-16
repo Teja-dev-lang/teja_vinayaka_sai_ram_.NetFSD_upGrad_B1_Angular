@@ -1,0 +1,23 @@
+﻿@model List<Student>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<a asp-controller="StudentOperations" asp-action="Create" Method ="POST">Add Student</a>
+<div class="container">
+    <table class="table">
+    <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+    </tr>
+    <tbody>
+            @foreach(var student in Model)
+            {
+                <td>@student.Name</td>
+                <td>@student.Age</td>
+                <td>@student.Email</td>
+            }
+    </tbody>
+    </table>
+</div>

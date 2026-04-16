@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\controllers\\studentoperationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:controllers\\studentoperationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\StudentOperations\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\StudentOperations\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\StudentOperations\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\StudentOperations\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\views\\student\\studentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:views\\student\\studentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\asp.net mvc\\mvcassignment2\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2F0A03-5376-4320-9A58-913D73AC6403}|MVCAssignment2.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\StudentOperations\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentOperations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\StudentOperations\\Create.cshtml",
+              "RelativeToolTip": "Views\\StudentOperations\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T03:13:03.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:21:29.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\StudentOperations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentOperations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\StudentOperations\\Index.cshtml",
+              "RelativeToolTip": "Views\\StudentOperations\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T02:42:34.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentOperationsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Controllers\\StudentOperationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentOperationsController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Controllers\\StudentOperationsController.cs",
+              "RelativeToolTip": "Controllers\\StudentOperationsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:30:16.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:03:56.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\Student\\StudentDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\StudentDetails.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\Student\\StudentDetails.cshtml",
+              "RelativeToolTip": "Views\\Student\\StudentDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T14:05:23.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T13:03:38.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T14:56:42.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:00:54.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\ASP.NET MVC\\MVCAssignment2\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:23:55.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

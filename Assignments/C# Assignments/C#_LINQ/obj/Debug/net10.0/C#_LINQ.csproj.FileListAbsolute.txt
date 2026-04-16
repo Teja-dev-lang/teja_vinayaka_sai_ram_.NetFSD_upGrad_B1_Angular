@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\bin\Debug\net10.0\C#_LINQ.exe
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\bin\Debug\net10.0\C#_LINQ.deps.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\bin\Debug\net10.0\C#_LINQ.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\bin\Debug\net10.0\C#_LINQ.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\bin\Debug\net10.0\C#_LINQ.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\refint\C#_LINQ.dll
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.pdb
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\C#_LINQ.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\Assignments\C# Assignments\C#_LINQ\obj\Debug\net10.0\ref\C#_LINQ.dll

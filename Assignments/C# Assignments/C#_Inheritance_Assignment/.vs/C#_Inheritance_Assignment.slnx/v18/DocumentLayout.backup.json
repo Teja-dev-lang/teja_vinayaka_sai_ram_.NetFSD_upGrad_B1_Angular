@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_inheritance_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_inheritance_assignment\\educationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|solutionrelative:educationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_inheritance_assignment\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|solutionrelative:question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|c:\\users\\hp\\onedrive\\desktop\\teja_vinayaka_sai_ram_.netfsd_upgrad_b1_angular\\assignments\\c# assignments\\c#_inheritance_assignment\\bankingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E4BC0-9C56-4D0A-B47B-5BE1A9F01DD5}|C#_Inheritance_Assignment.csproj|solutionrelative:bankingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EducationSystem.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\EducationSystem.cs",
+              "RelativeDocumentMoniker": "EducationSystem.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\EducationSystem.cs",
+              "RelativeToolTip": "EducationSystem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T17:24:10.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "question1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\question1.cs",
+              "RelativeDocumentMoniker": "question1.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\question1.cs",
+              "RelativeToolTip": "question1.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:33:07.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwDAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:11:13.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BankingSystem.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\BankingSystem.cs",
+              "RelativeDocumentMoniker": "BankingSystem.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\teja_vinayaka_sai_ram_.NetFSD_upGrad_B1_Angular\\Assignments\\C# Assignments\\C#_Inheritance_Assignment\\BankingSystem.cs",
+              "RelativeToolTip": "BankingSystem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:22:02.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
