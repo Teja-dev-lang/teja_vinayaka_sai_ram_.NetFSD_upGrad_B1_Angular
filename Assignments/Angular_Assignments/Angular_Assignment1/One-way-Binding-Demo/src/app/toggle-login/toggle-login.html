@@ -1,0 +1,7 @@
+@if(isLoggedIn){
+    <h2 >Welcome User</h2>
+}
+
+<button (click)="toggleLogin()">
+  {{ isLoggedIn ? 'Logout' : 'Login' }}
+</button>
